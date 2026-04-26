@@ -1,0 +1,33 @@
+{
+  "name": "students-diary",
+  "version": "1.0.0",
+  "description": "一个面向研究生的赛博宠物桌面伴侣，记录工作状态，提供温柔讽刺的情绪价值",
+  "main": "src/electron.js",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:vite": "vite --host",
+    "dev:electron": "electron .",
+    "build": "vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "echarts": "^5.4.0",
+    "electron-store": "^8.1.0",
+    "pinia": "^3.0.4",
+    "vue": "^3.4.0",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "concurrently": "^8.2.2",
+    "cross-env": "^10.1.0",
+    "electron": "^41.3.0",
+    "electron-builder": "^26.8.1",
+    "vite": "^8.0.10",
+    "wait-on": "^9.0.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
